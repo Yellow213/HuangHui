@@ -35,16 +35,17 @@ public class Customer {
 			)
 	
 	//由j2ee来实现
-//	@GeneratedValue(strategy=GenerationType.AUTO)//自动生成主键//Sequence
+//	@GeneratedValue(strategy=GenerationType.AUTO)
+	//自动生成主键//GenerationType.Sequence,生成没有规律的
 	
 	@GeneratedValue(strategy=GenerationType.TABLE,generator="Id_generator")//没有什么复杂的，不是有点jpa id 生成策略
 	@Id//声明主键，任何实体类对象必须有一个主键，也可以是getter方法之前。
 	private Integer cNo;
-//	@Column(length=30)
+	@Column(length=30)
     private String cname;
-//	@Temporal(TemporalType.DATE)
+	@Temporal(TemporalType.DATE)
     private Date birethday;
-//	@Column(length=11)
+	@Column(length=11)
     private String phone;
     private String mem;//备注
 	public Integer getcNo() {

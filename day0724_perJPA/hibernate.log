@@ -395,3 +395,166 @@
 2017-07-24 18:35:28  INFO SchemaExport:343 - HHH000227: Running hbm2ddl schema export
 2017-07-24 18:35:28  INFO SchemaExport:405 - HHH000230: Schema export complete
 2017-07-24 18:35:29  INFO DriverManagerConnectionProviderImpl:160 - HHH000030: Cleaning up connection pool [jdbc:oracle:thin:scott/123456@127.0.0.1:1521:neuedu]
+2017-07-24 23:01:38  INFO Version:37 - HCANN000001: Hibernate Commons Annotations {4.0.2.Final}
+2017-07-24 23:01:38  INFO Version:41 - HHH000412: Hibernate Core {4.2.4.Final}
+2017-07-24 23:01:38  INFO Environment:239 - HHH000206: hibernate.properties not found
+2017-07-24 23:01:38  INFO Environment:342 - HHH000021: Bytecode provider name : javassist
+2017-07-24 23:01:39  INFO DriverManagerConnectionProviderImpl:98 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2017-07-24 23:01:39  INFO DriverManagerConnectionProviderImpl:134 - HHH000115: Hibernate connection pool size: 20
+2017-07-24 23:01:39  INFO DriverManagerConnectionProviderImpl:137 - HHH000006: Autocommit mode: true
+2017-07-24 23:01:39  INFO DriverManagerConnectionProviderImpl:151 - HHH000401: using driver [oracle.jdbc.driver.OracleDriver] at URL [jdbc:oracle:thin:scott/123456@127.0.0.1:1521:neuedu]
+2017-07-24 23:01:39  INFO DriverManagerConnectionProviderImpl:156 - HHH000046: Connection properties: {user=scott, password=****, autocommit=true, release_mode=auto}
+2017-07-24 23:01:41  INFO Dialect:130 - HHH000400: Using dialect: org.hibernate.dialect.OracleDialect
+2017-07-24 23:01:41  WARN Oracle9Dialect:62 - HHH000063: The Oracle9Dialect dialect has been deprecated; use either Oracle9iDialect or Oracle10gDialect instead
+2017-07-24 23:01:41  WARN OracleDialect:48 - HHH000064: The OracleDialect dialect has been deprecated; use Oracle8iDialect instead
+2017-07-24 23:01:41  INFO TransactionFactoryInitiator:73 - HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jdbc.JdbcTransactionFactory
+2017-07-24 23:01:41  INFO ASTQueryTranslatorFactory:48 - HHH000397: Using ASTQueryTranslatorFactory
+2017-07-24 23:01:42  INFO SchemaExport:343 - HHH000227: Running hbm2ddl schema export
+2017-07-24 23:01:42  INFO SchemaExport:405 - HHH000230: Schema export complete
+2017-07-24 23:01:42  INFO DriverManagerConnectionProviderImpl:160 - HHH000030: Cleaning up connection pool [jdbc:oracle:thin:scott/123456@127.0.0.1:1521:neuedu]
+2017-07-24 23:04:26  INFO Version:37 - HCANN000001: Hibernate Commons Annotations {4.0.2.Final}
+2017-07-24 23:04:26  INFO Version:41 - HHH000412: Hibernate Core {4.2.4.Final}
+2017-07-24 23:04:26  INFO Environment:239 - HHH000206: hibernate.properties not found
+2017-07-24 23:04:26  INFO Environment:342 - HHH000021: Bytecode provider name : javassist
+2017-07-24 23:04:27  INFO DriverManagerConnectionProviderImpl:98 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2017-07-24 23:04:27  INFO DriverManagerConnectionProviderImpl:134 - HHH000115: Hibernate connection pool size: 20
+2017-07-24 23:04:27  INFO DriverManagerConnectionProviderImpl:137 - HHH000006: Autocommit mode: true
+2017-07-24 23:04:27  INFO DriverManagerConnectionProviderImpl:151 - HHH000401: using driver [oracle.jdbc.driver.OracleDriver] at URL [jdbc:oracle:thin:scott/123456@127.0.0.1:1521:neuedu]
+2017-07-24 23:04:27  INFO DriverManagerConnectionProviderImpl:156 - HHH000046: Connection properties: {user=scott, password=****, autocommit=true, release_mode=auto}
+2017-07-24 23:04:29  INFO Dialect:130 - HHH000400: Using dialect: org.hibernate.dialect.OracleDialect
+2017-07-24 23:04:29  WARN Oracle9Dialect:62 - HHH000063: The Oracle9Dialect dialect has been deprecated; use either Oracle9iDialect or Oracle10gDialect instead
+2017-07-24 23:04:29  WARN OracleDialect:48 - HHH000064: The OracleDialect dialect has been deprecated; use Oracle8iDialect instead
+2017-07-24 23:04:29  INFO TransactionFactoryInitiator:73 - HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jdbc.JdbcTransactionFactory
+2017-07-24 23:04:29  INFO ASTQueryTranslatorFactory:48 - HHH000397: Using ASTQueryTranslatorFactory
+2017-07-24 23:04:30  INFO SchemaUpdate:182 - HHH000228: Running hbm2ddl schema update
+2017-07-24 23:04:30  INFO SchemaUpdate:193 - HHH000102: Fetching database metadata
+2017-07-24 23:04:30  INFO SchemaUpdate:205 - HHH000396: Updating schema
+2017-07-24 23:04:38  INFO TableMetadata:65 - HHH000261: Table found: SCOTT.CUSTOMER
+2017-07-24 23:04:38  INFO TableMetadata:66 - HHH000037: Columns: [mem, cno, phone, cname, birethday]
+2017-07-24 23:04:38  INFO TableMetadata:68 - HHH000108: Foreign keys: []
+2017-07-24 23:04:38  INFO TableMetadata:69 - HHH000126: Indexes: [sys_c0010576]
+2017-07-24 23:04:38  INFO TableMetadata:65 - HHH000261: Table found: SCOTT.ID_GENERATOR
+2017-07-24 23:04:38  INFO TableMetadata:66 - HHH000037: Columns: [pk_name, pk_value]
+2017-07-24 23:04:38  INFO TableMetadata:68 - HHH000108: Foreign keys: []
+2017-07-24 23:04:38  INFO TableMetadata:69 - HHH000126: Indexes: []
+2017-07-24 23:04:38  INFO SchemaUpdate:242 - HHH000232: Schema update complete
+2017-07-24 23:04:39  INFO DriverManagerConnectionProviderImpl:160 - HHH000030: Cleaning up connection pool [jdbc:oracle:thin:scott/123456@127.0.0.1:1521:neuedu]
+2017-07-24 23:07:35  INFO Version:37 - HCANN000001: Hibernate Commons Annotations {4.0.2.Final}
+2017-07-24 23:07:35  INFO Version:41 - HHH000412: Hibernate Core {4.2.4.Final}
+2017-07-24 23:07:35  INFO Environment:239 - HHH000206: hibernate.properties not found
+2017-07-24 23:07:35  INFO Environment:342 - HHH000021: Bytecode provider name : javassist
+2017-07-24 23:07:35  INFO DriverManagerConnectionProviderImpl:98 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2017-07-24 23:07:35  INFO DriverManagerConnectionProviderImpl:134 - HHH000115: Hibernate connection pool size: 20
+2017-07-24 23:07:35  INFO DriverManagerConnectionProviderImpl:137 - HHH000006: Autocommit mode: true
+2017-07-24 23:07:35  INFO DriverManagerConnectionProviderImpl:151 - HHH000401: using driver [oracle.jdbc.driver.OracleDriver] at URL [jdbc:oracle:thin:scott/123456@127.0.0.1:1521:neuedu]
+2017-07-24 23:07:35  INFO DriverManagerConnectionProviderImpl:156 - HHH000046: Connection properties: {user=scott, password=****, autocommit=true, release_mode=auto}
+2017-07-24 23:07:37  INFO Dialect:130 - HHH000400: Using dialect: org.hibernate.dialect.OracleDialect
+2017-07-24 23:07:37  WARN Oracle9Dialect:62 - HHH000063: The Oracle9Dialect dialect has been deprecated; use either Oracle9iDialect or Oracle10gDialect instead
+2017-07-24 23:07:37  WARN OracleDialect:48 - HHH000064: The OracleDialect dialect has been deprecated; use Oracle8iDialect instead
+2017-07-24 23:07:37  INFO TransactionFactoryInitiator:73 - HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jdbc.JdbcTransactionFactory
+2017-07-24 23:07:37  INFO ASTQueryTranslatorFactory:48 - HHH000397: Using ASTQueryTranslatorFactory
+2017-07-24 23:07:37  INFO SchemaUpdate:182 - HHH000228: Running hbm2ddl schema update
+2017-07-24 23:07:37  INFO SchemaUpdate:193 - HHH000102: Fetching database metadata
+2017-07-24 23:07:37  INFO SchemaUpdate:205 - HHH000396: Updating schema
+2017-07-24 23:07:37  INFO TableMetadata:65 - HHH000261: Table found: SCOTT.CUSTOMER
+2017-07-24 23:07:37  INFO TableMetadata:66 - HHH000037: Columns: [mem, cno, phone, cname, birethday]
+2017-07-24 23:07:37  INFO TableMetadata:68 - HHH000108: Foreign keys: []
+2017-07-24 23:07:37  INFO TableMetadata:69 - HHH000126: Indexes: [sys_c0010576]
+2017-07-24 23:07:37  INFO TableMetadata:65 - HHH000261: Table found: SCOTT.ID_GENERATOR
+2017-07-24 23:07:37  INFO TableMetadata:66 - HHH000037: Columns: [pk_name, pk_value]
+2017-07-24 23:07:37  INFO TableMetadata:68 - HHH000108: Foreign keys: []
+2017-07-24 23:07:37  INFO TableMetadata:69 - HHH000126: Indexes: []
+2017-07-24 23:07:37  INFO SchemaUpdate:242 - HHH000232: Schema update complete
+2017-07-24 23:07:38  INFO DriverManagerConnectionProviderImpl:160 - HHH000030: Cleaning up connection pool [jdbc:oracle:thin:scott/123456@127.0.0.1:1521:neuedu]
+2017-07-24 23:18:08  INFO Version:37 - HCANN000001: Hibernate Commons Annotations {4.0.2.Final}
+2017-07-24 23:18:08  INFO Version:41 - HHH000412: Hibernate Core {4.2.4.Final}
+2017-07-24 23:18:08  INFO Environment:239 - HHH000206: hibernate.properties not found
+2017-07-24 23:18:08  INFO Environment:342 - HHH000021: Bytecode provider name : javassist
+2017-07-24 23:18:08  INFO DriverManagerConnectionProviderImpl:98 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2017-07-24 23:18:08  INFO DriverManagerConnectionProviderImpl:134 - HHH000115: Hibernate connection pool size: 20
+2017-07-24 23:18:08  INFO DriverManagerConnectionProviderImpl:137 - HHH000006: Autocommit mode: true
+2017-07-24 23:18:08  INFO DriverManagerConnectionProviderImpl:151 - HHH000401: using driver [oracle.jdbc.driver.OracleDriver] at URL [jdbc:oracle:thin:scott/123456@127.0.0.1:1521:neuedu]
+2017-07-24 23:18:08  INFO DriverManagerConnectionProviderImpl:156 - HHH000046: Connection properties: {user=scott, password=****, autocommit=true, release_mode=auto}
+2017-07-24 23:18:10  INFO Dialect:130 - HHH000400: Using dialect: org.hibernate.dialect.OracleDialect
+2017-07-24 23:18:10  WARN Oracle9Dialect:62 - HHH000063: The Oracle9Dialect dialect has been deprecated; use either Oracle9iDialect or Oracle10gDialect instead
+2017-07-24 23:18:10  WARN OracleDialect:48 - HHH000064: The OracleDialect dialect has been deprecated; use Oracle8iDialect instead
+2017-07-24 23:18:10  INFO TransactionFactoryInitiator:73 - HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jdbc.JdbcTransactionFactory
+2017-07-24 23:18:10  INFO ASTQueryTranslatorFactory:48 - HHH000397: Using ASTQueryTranslatorFactory
+2017-07-24 23:18:10  INFO SchemaUpdate:182 - HHH000228: Running hbm2ddl schema update
+2017-07-24 23:18:10  INFO SchemaUpdate:193 - HHH000102: Fetching database metadata
+2017-07-24 23:18:10  INFO SchemaUpdate:205 - HHH000396: Updating schema
+2017-07-24 23:18:10  INFO TableMetadata:65 - HHH000261: Table found: SCOTT.CUSTOMER
+2017-07-24 23:18:10  INFO TableMetadata:66 - HHH000037: Columns: [mem, cno, phone, cname, birethday]
+2017-07-24 23:18:10  INFO TableMetadata:68 - HHH000108: Foreign keys: []
+2017-07-24 23:18:10  INFO TableMetadata:69 - HHH000126: Indexes: [sys_c0010576]
+2017-07-24 23:18:11  INFO TableMetadata:65 - HHH000261: Table found: SCOTT.ORDERS
+2017-07-24 23:18:11  INFO TableMetadata:66 - HHH000037: Columns: [createtime, money, id]
+2017-07-24 23:18:11  INFO TableMetadata:68 - HHH000108: Foreign keys: []
+2017-07-24 23:18:11  INFO TableMetadata:69 - HHH000126: Indexes: [sys_c0010578]
+2017-07-24 23:18:11  INFO TableMetadata:65 - HHH000261: Table found: SCOTT.ID_GENERATOR
+2017-07-24 23:18:11  INFO TableMetadata:66 - HHH000037: Columns: [pk_name, pk_value]
+2017-07-24 23:18:11  INFO TableMetadata:68 - HHH000108: Foreign keys: []
+2017-07-24 23:18:11  INFO TableMetadata:69 - HHH000126: Indexes: []
+2017-07-24 23:18:11  INFO SchemaUpdate:242 - HHH000232: Schema update complete
+2017-07-24 23:18:11  INFO DriverManagerConnectionProviderImpl:160 - HHH000030: Cleaning up connection pool [jdbc:oracle:thin:scott/123456@127.0.0.1:1521:neuedu]
+2017-07-24 23:19:50  INFO Version:37 - HCANN000001: Hibernate Commons Annotations {4.0.2.Final}
+2017-07-24 23:19:50  INFO Version:41 - HHH000412: Hibernate Core {4.2.4.Final}
+2017-07-24 23:19:50  INFO Environment:239 - HHH000206: hibernate.properties not found
+2017-07-24 23:19:50  INFO Environment:342 - HHH000021: Bytecode provider name : javassist
+2017-07-24 23:19:51  INFO DriverManagerConnectionProviderImpl:98 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2017-07-24 23:19:51  INFO DriverManagerConnectionProviderImpl:134 - HHH000115: Hibernate connection pool size: 20
+2017-07-24 23:19:51  INFO DriverManagerConnectionProviderImpl:137 - HHH000006: Autocommit mode: true
+2017-07-24 23:19:51  INFO DriverManagerConnectionProviderImpl:151 - HHH000401: using driver [oracle.jdbc.driver.OracleDriver] at URL [jdbc:oracle:thin:scott/123456@127.0.0.1:1521:neuedu]
+2017-07-24 23:19:51  INFO DriverManagerConnectionProviderImpl:156 - HHH000046: Connection properties: {user=scott, password=****, autocommit=true, release_mode=auto}
+2017-07-24 23:19:52  INFO Dialect:130 - HHH000400: Using dialect: org.hibernate.dialect.OracleDialect
+2017-07-24 23:19:52  WARN Oracle9Dialect:62 - HHH000063: The Oracle9Dialect dialect has been deprecated; use either Oracle9iDialect or Oracle10gDialect instead
+2017-07-24 23:19:52  WARN OracleDialect:48 - HHH000064: The OracleDialect dialect has been deprecated; use Oracle8iDialect instead
+2017-07-24 23:19:53  INFO TransactionFactoryInitiator:73 - HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jdbc.JdbcTransactionFactory
+2017-07-24 23:19:53  INFO ASTQueryTranslatorFactory:48 - HHH000397: Using ASTQueryTranslatorFactory
+2017-07-24 23:19:53  INFO SchemaUpdate:182 - HHH000228: Running hbm2ddl schema update
+2017-07-24 23:19:53  INFO SchemaUpdate:193 - HHH000102: Fetching database metadata
+2017-07-24 23:19:53  INFO SchemaUpdate:205 - HHH000396: Updating schema
+2017-07-24 23:19:53  INFO TableMetadata:65 - HHH000261: Table found: SCOTT.CUSTOMER
+2017-07-24 23:19:53  INFO TableMetadata:66 - HHH000037: Columns: [mem, cno, phone, cname, birethday]
+2017-07-24 23:19:53  INFO TableMetadata:68 - HHH000108: Foreign keys: []
+2017-07-24 23:19:53  INFO TableMetadata:69 - HHH000126: Indexes: [sys_c0010576]
+2017-07-24 23:19:53  INFO TableMetadata:65 - HHH000261: Table found: SCOTT.ORDERS
+2017-07-24 23:19:53  INFO TableMetadata:66 - HHH000037: Columns: [createtime, money, id]
+2017-07-24 23:19:53  INFO TableMetadata:68 - HHH000108: Foreign keys: []
+2017-07-24 23:19:53  INFO TableMetadata:69 - HHH000126: Indexes: [sys_c0010578]
+2017-07-24 23:19:53  INFO TableMetadata:65 - HHH000261: Table found: SCOTT.ID_GENERATOR
+2017-07-24 23:19:53  INFO TableMetadata:66 - HHH000037: Columns: [pk_name, pk_value]
+2017-07-24 23:19:53  INFO TableMetadata:68 - HHH000108: Foreign keys: []
+2017-07-24 23:19:53  INFO TableMetadata:69 - HHH000126: Indexes: []
+2017-07-24 23:19:53  INFO SchemaUpdate:242 - HHH000232: Schema update complete
+2017-07-24 23:20:28  INFO Version:37 - HCANN000001: Hibernate Commons Annotations {4.0.2.Final}
+2017-07-24 23:20:28  INFO Version:41 - HHH000412: Hibernate Core {4.2.4.Final}
+2017-07-24 23:20:28  INFO Environment:239 - HHH000206: hibernate.properties not found
+2017-07-24 23:20:28  INFO Environment:342 - HHH000021: Bytecode provider name : javassist
+2017-07-24 23:20:28  INFO DriverManagerConnectionProviderImpl:98 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2017-07-24 23:20:28  INFO DriverManagerConnectionProviderImpl:134 - HHH000115: Hibernate connection pool size: 20
+2017-07-24 23:20:28  INFO DriverManagerConnectionProviderImpl:137 - HHH000006: Autocommit mode: true
+2017-07-24 23:20:28  INFO DriverManagerConnectionProviderImpl:151 - HHH000401: using driver [oracle.jdbc.driver.OracleDriver] at URL [jdbc:oracle:thin:scott/123456@127.0.0.1:1521:neuedu]
+2017-07-24 23:20:28  INFO DriverManagerConnectionProviderImpl:156 - HHH000046: Connection properties: {user=scott, password=****, autocommit=true, release_mode=auto}
+2017-07-24 23:20:30  INFO Dialect:130 - HHH000400: Using dialect: org.hibernate.dialect.OracleDialect
+2017-07-24 23:20:30  WARN Oracle9Dialect:62 - HHH000063: The Oracle9Dialect dialect has been deprecated; use either Oracle9iDialect or Oracle10gDialect instead
+2017-07-24 23:20:30  WARN OracleDialect:48 - HHH000064: The OracleDialect dialect has been deprecated; use Oracle8iDialect instead
+2017-07-24 23:20:30  INFO TransactionFactoryInitiator:73 - HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jdbc.JdbcTransactionFactory
+2017-07-24 23:20:30  INFO ASTQueryTranslatorFactory:48 - HHH000397: Using ASTQueryTranslatorFactory
+2017-07-24 23:20:31  INFO SchemaUpdate:182 - HHH000228: Running hbm2ddl schema update
+2017-07-24 23:20:31  INFO SchemaUpdate:193 - HHH000102: Fetching database metadata
+2017-07-24 23:20:31  INFO SchemaUpdate:205 - HHH000396: Updating schema
+2017-07-24 23:20:31  INFO TableMetadata:65 - HHH000261: Table found: SCOTT.CUSTOMER
+2017-07-24 23:20:31  INFO TableMetadata:66 - HHH000037: Columns: [mem, cno, phone, cname, birethday]
+2017-07-24 23:20:31  INFO TableMetadata:68 - HHH000108: Foreign keys: []
+2017-07-24 23:20:31  INFO TableMetadata:69 - HHH000126: Indexes: [sys_c0010576]
+2017-07-24 23:20:31  INFO TableMetadata:65 - HHH000261: Table found: SCOTT.ORDERS
+2017-07-24 23:20:31  INFO TableMetadata:66 - HHH000037: Columns: [createtime, money, id]
+2017-07-24 23:20:31  INFO TableMetadata:68 - HHH000108: Foreign keys: []
+2017-07-24 23:20:31  INFO TableMetadata:69 - HHH000126: Indexes: [sys_c0010578]
+2017-07-24 23:20:31  INFO TableMetadata:65 - HHH000261: Table found: SCOTT.ID_GENERATOR
+2017-07-24 23:20:31  INFO TableMetadata:66 - HHH000037: Columns: [pk_name, pk_value]
+2017-07-24 23:20:31  INFO TableMetadata:68 - HHH000108: Foreign keys: []
+2017-07-24 23:20:31  INFO TableMetadata:69 - HHH000126: Indexes: []
+2017-07-24 23:20:31  INFO SchemaUpdate:242 - HHH000232: Schema update complete
+2017-07-24 23:20:31  INFO DriverManagerConnectionProviderImpl:160 - HHH000030: Cleaning up connection pool [jdbc:oracle:thin:scott/123456@127.0.0.1:1521:neuedu]

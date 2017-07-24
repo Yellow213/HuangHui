@@ -17,8 +17,8 @@ import javax.persistence.TemporalType;
 * @version 创建时间：2017年7月24日 下午1:49:30
 * @introduction 订单表
 */
-//@Entity
-//@Table(name="orders")
+@Entity
+@Table(name="orders")
 public class Order {
 	@Id
 	@GeneratedValue(strategy=GenerationType.AUTO)
